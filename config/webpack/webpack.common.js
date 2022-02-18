@@ -19,6 +19,7 @@ const includeModules = [
     'react-native-gesture-handler',
     'react-native-flipper',
     'react-native-google-places-autocomplete',
+    'react-native-simple-radio-button',
 ].join('|');
 
 /**
