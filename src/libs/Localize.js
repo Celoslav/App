@@ -81,8 +81,8 @@ function translateLocal(phrase, variables) {
 /**
  * Format an array into a string with coma and "and" ("a dog, a cat and a chicken")
  *
- * @param {array} anArray
- * @return {string}
+ * @param {Array} anArray
+ * @return {String}
  */
 function arrayToString(anArray) {
     const and = this.translateLocal('common.and');
