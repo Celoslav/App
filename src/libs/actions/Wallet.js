@@ -77,8 +77,8 @@ function setAdditionalDetailsShouldShowFailedKYC(shouldShowFailedKYC) {
 
 /**
  * Transforms a list of Idology errors to a translated displayable error string.
- * @param {array} idologyErrors
- * @return {string}
+ * @param {Array} idologyErrors
+ * @return {String}
  */
 function buildIdologyError(idologyErrors) {
     if (_.isEmpty(idologyErrors)) {
