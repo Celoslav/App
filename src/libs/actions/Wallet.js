@@ -40,7 +40,7 @@ function setAdditionalDetailsLoading(loading) {
 
 /**
  * @param {Array} questions
- * @param {string} [idNumber]
+ * @param {String} [idNumber]
  */
 function setAdditionalDetailsQuestions(questions, idNumber) {
     Onyx.merge(ONYXKEYS.WALLET_ADDITIONAL_DETAILS, {questions, idNumber});
