@@ -62,8 +62,8 @@ class IdologyQuestions extends React.Component {
 
     /**
      * Put question answer in the state.
-     * @param {number} questionIndex
-     * @param {string} answer
+     * @param {Number} questionIndex
+     * @param {String} answer
      */
     chooseAnswer(questionIndex, answer) {
         this.setState((prevState) => {
