@@ -79,7 +79,7 @@ function translateLocal(phrase, variables) {
 }
 
 /**
- * Format an array into a string with coma and "and" ("a dog, a cat and a chicken")
+ * Format an array into a string with comma and "and" ("a dog, a cat and a chicken")
  *
  * @param {Array} anArray
  * @return {String}
